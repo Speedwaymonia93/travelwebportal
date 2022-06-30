@@ -1,0 +1,46 @@
+.card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex: 1 1 0px;
+}
+.card-element-container {
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	flex: 1 1 0px;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.card-title {
+	color: gray;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0px;
+	padding: 10px 0 0 10px;
+}
+.card-star-icon {
+	color: #ffcc00;
+}
+.card-image {
+	width: 100%;
+	height: auto;
+}
+.card-name {
+	padding: 10px 0 0 10px;
+}
+.card-star-rating {
+	padding: 10px 0 0 10px;
+}
+.card-star-level-number {
+	margin-left: 5px;
+	font-weight: 700;
+}
+.card-price {
+	padding: 10px 0 0 10px;
+	font-weight: 800;
+}
+.card-entry-price {
+	color: gray;
+	text-decoration: line-through;
+}
